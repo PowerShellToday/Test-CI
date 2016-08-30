@@ -29,5 +29,7 @@ Get-BuildVariables
 Write-host "Get-ProjectName" -ForegroundColor Yellow
 Get-ProjectName
 
-Write-host "ENV:" -ForegroundColor Yellow
-gci env:
+#Write-host "ENV:" -ForegroundColor Yellow
+#gci env:
+
+Invoke-psake .\psake.ps1
