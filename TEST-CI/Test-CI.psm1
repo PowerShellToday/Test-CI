@@ -13,6 +13,7 @@
 function Write-HelloWorld
 {
 	Write-Host "Hello World"
+	#Comment
 }
 
 Export-ModuleMember Write-HelloWorld
